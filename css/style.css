@@ -361,7 +361,7 @@ border:1px solid #E8382F;
 }
 #text-carousel-intro-section .caption {
 	position: relative;
-	top: 32.5%;
+	top: 12.5%;
 	margin-top: -70px;
 }
 .owl-theme .owl-controls .owl-page 
@@ -376,6 +376,48 @@ border:1px solid #E8382F;
 	font-size: 66px;
 	text-transform: uppercase;
 }
+.heading{
+margin-top: 0;
+	color:#000;
+	margin-bottom: 5px;
+	font-size: 66px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+
+}
+p.subheading
+{
+	letter-spacing: 2px;
+	font-size: 32px;
+	font-family: 'Open Sans', sans-serif;
+	color:#000;
+}
+.heading-white{
+margin-top: 0;
+	color:#fff;
+	margin-bottom: 5px;
+	font-size: 66px;
+	text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+
+}
+p.subheading-white 
+{
+	letter-spacing: 2px;
+	font-size: 32px;
+	font-family: 'Open Sans', sans-serif;
+	color:#fff;
+}
+.bottom-50
+{
+	margin-bottom:-50px;
+}
+.right-10
+{
+	right:3% !important;
+	margin-bottom:6%;
+}
+
 #text-carousel-intro-section .caption p {
 	letter-spacing: 2px;
 	font-size: 32px;
