@@ -1,11 +1,11 @@
-@charset "utf-8";
+﻿@charset "utf-8";
 /* CSS Document */
-
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
 * html .fixed-top /* top head for IE6 */{
 position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop));
 }
 html{overflow-y:auto; color:#fff; background:#fff;}
-body{min-width:1200px;font:12px/18px "Microsoft Yahei","微软雅黑",Arial,Verdana,sans-serif;font-weight:lighter;color:#333; -webkit-font-smoothing: antialiased;}
+body{min-width:1200px;font:12px/18px 'Source Sans Pro',"PT Sans","Microsoft Yahei","微软雅黑",Arial,Verdana,sans-serif;font-weight:lighter;color:#333; -webkit-font-smoothing: antialiased;}
 a{color:#333; text-decoration:none; cursor:pointer; outline: 0 none;}
 a:hover{ text-decoration:none;}
 a:focus{-moz-outline-style:none; border:0px;}
